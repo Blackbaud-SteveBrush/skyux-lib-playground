@@ -28,4 +28,4 @@ jobs:
           personal-access-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           slack-webhook: ${{ secrets.SLACK_WEBHOOK }}
         env:
-          TRAVIS_BUILD_NUMBER: ${{ GITHUB_RUN_ID }}
+          TRAVIS_BUILD_NUMBER: ${{ env.GITHUB_RUN_ID }}
