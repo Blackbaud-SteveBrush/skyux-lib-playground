@@ -18,6 +18,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
       - uses: Blackbaud-SteveBrush/skyux-libraries-action@v1.0.0-alpha.7
         with:
           browser-stack-access-key: ${{ secrets.BROWSER_STACK_ACCESS_KEY }}
