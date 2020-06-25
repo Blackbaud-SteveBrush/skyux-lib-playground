@@ -1,5 +1,5 @@
 {
-  "name": "blackbaud-skyux-lib-playground",
+  "name": "@skyux/playground",
   "version": "0.0.1",
   "description": "A library named skyux-lib-playground",
   "scripts": {

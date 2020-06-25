@@ -15,8 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      - uses: Blackbaud-SteveBrush/skyux-libraries-action@v1.0.0-alpha.5
+      - uses: Blackbaud-SteveBrush/skyux-libraries-action@v1.0.0-alpha.6
         with:
           browser-stack-access-key: ${{ secrets.BROWSER_STACK_ACCESS_KEY }}
           browser-stack-username: ${{ secrets.BROWSER_STACK_USERNAME }}
+          npm-token: ${{ secrets.NPM_TOKEN }}
           personal-access-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          slack-webhook: ${{ secrets.SLACK_WEBHOOK }}
