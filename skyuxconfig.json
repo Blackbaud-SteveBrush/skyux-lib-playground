@@ -5,6 +5,7 @@
       "name": "My Library"
     }
   },
+  "name": "skyux-lib-playground",
   "compileMode": "aot",
   "mode": "easy",
   "plugins": [
