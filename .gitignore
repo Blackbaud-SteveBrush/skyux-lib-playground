@@ -30,3 +30,6 @@ dist
 
 # IntelliJ files
 .idea
+
+screenshots-baseline-local
+screenshots-diff-local
