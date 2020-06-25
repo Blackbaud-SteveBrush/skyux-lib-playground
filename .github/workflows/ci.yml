@@ -2,6 +2,9 @@ name: SKY UX CI
 
 on:
   pull_request:
+    branches:
+      - master
+      - 3.x.x
   push:
     branches:
       - master
