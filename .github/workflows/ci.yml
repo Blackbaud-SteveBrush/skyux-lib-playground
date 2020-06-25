@@ -27,3 +27,5 @@ jobs:
           npm-token: ${{ secrets.NPM_TOKEN }}
           personal-access-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           slack-webhook: ${{ secrets.SLACK_WEBHOOK }}
+        env:
+          TRAVIS_BUILD_NUMBER: ${{ GITHUB_RUN_ID }}
