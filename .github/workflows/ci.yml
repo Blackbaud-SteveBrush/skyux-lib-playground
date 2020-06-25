@@ -16,8 +16,8 @@ jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v2.3.1
+      - uses: actions/setup-node@v1.4.2
         with:
           node-version: '12.x'
       - uses: Blackbaud-SteveBrush/skyux-libraries-action@v1.0.0-alpha.7
