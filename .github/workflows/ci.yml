@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-node@v1.4.2
         with:
           node-version: '12.x'
-      - uses: Blackbaud-SteveBrush/skyux-libraries-action@v1.0.0-alpha.7
+      - uses: Blackbaud-SteveBrush/skyux-libraries-action@v1.0.0-alpha.8
         with:
           browser-stack-access-key: ${{ secrets.BROWSER_STACK_ACCESS_KEY }}
           browser-stack-username: ${{ secrets.BROWSER_STACK_USERNAME }}
