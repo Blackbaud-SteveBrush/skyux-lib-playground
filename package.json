@@ -1,6 +1,6 @@
 {
   "name": "@skyux/playground",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A library named skyux-lib-playground",
   "scripts": {
     "build": "skyux build-public-library",
